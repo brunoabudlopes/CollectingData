@@ -24,7 +24,7 @@ namespace Assignment2.Migrations
                     ConfirmPassword = table.Column<string>(nullable: false),
                     Email = table.Column<string>(nullable: false),
                     AlternativeEmail = table.Column<string>(nullable: true),
-                    Phone = table.Column<int>(nullable: true)
+                    Phone = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

@@ -76,7 +76,7 @@ namespace assignment02.Models
         public string AlternativeEmail { get; set; }
 
         [Display(Name = "Phone")]
-        public int Phone { get; set; }
+        public Nullable<int> Phone { get; set; }
 
     }
 }
